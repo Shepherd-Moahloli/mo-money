@@ -1,0 +1,78 @@
+body {
+  background-color: #f0f0f0;
+  color: #666;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+}
+
+#app {
+  width: 35vw;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2.5rem;
+  margin-top: 5rem;
+  border-radius: 0.5rem;
+}
+
+#app header h1 {
+  margin: 0;
+}
+
+#app header {
+  margin-bottom: 1.25rem;
+}
+
+#currency {
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+}
+form select {
+  font-size: 2rem;
+}
+
+form input {
+  width: 100%;
+}
+
+@media (min-width: 325px) and (max-width: 1250px) {
+  body {
+    font-size: 0.2rem;
+    margin: 0.4rem;
+  }
+
+  #app {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+  }
+
+  #app header {
+    font-size: 0.8rem;
+  }
+
+  #selector {
+    font-size: 1rem;
+    margin: 0.4rem;
+  }
+
+  #query {
+    margin: 0.4rem;
+  }
+
+  #convert {
+    margin: 0.4rem;
+  }
+
+  #result {
+    margin: 0.4rem;
+  }
+}
