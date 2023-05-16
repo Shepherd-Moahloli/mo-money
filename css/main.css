@@ -50,13 +50,17 @@ form input {
     margin: 0 auto;
     margin-top: 0px;
     padding: 0;
-    display: grid;
-    place-items: center;
     margin-top: 2rem;
   }
 
   #app header {
     font-size: 0.8rem;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  form {
+    padding: 1rem;
   }
 
   #selector {
