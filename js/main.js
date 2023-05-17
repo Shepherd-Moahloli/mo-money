@@ -9,11 +9,13 @@ of.addEventListener("submit", function (event) {
 
   // test if it is a number
 
+  const rate = selector.options[selector.selectedIndex].value;
+
   if (isNaN(query.value)) {
     alert("Please enter a number");
     of.reset();
   } else {
-    result.value = query.value * 15;
+    result.value = query.value * rate;
   }
   /*
   result.value = query.value * 15;
@@ -32,5 +34,5 @@ of.addEventListener("submit", function (event) {
     result.value = query.value * 20;
   }
 */
-  console.log(selector.options[selector.selectedIndex]);
+  console.log(selector.options[selector.selectedIndex].value);
 });
